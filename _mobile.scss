@@ -1,0 +1,37 @@
+@media (min-width: 1050px) {
+    header {
+        h1 {
+            font-size: 5rem;
+        }
+
+        .fa-2xl {
+            font-size: 3.6rem;
+        }
+
+        ul {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    .container {
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+       justify-content: center;
+
+       .intro {
+        width: 50%;
+    }
+        
+        .stack{
+            img {
+                width: 8rem;
+                height: 8rem;
+            }
+
+            h1 {
+                display: none;
+            }
+        }
+    }
+}

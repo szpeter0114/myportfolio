@@ -1,0 +1,67 @@
+@import 'list';
+@import 'header';
+@import 'variables';
+@import 'stack';
+@import 'mobile';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url('/bg.jpeg');
+}
+
+.big-cont {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(224, 222, 207, 0.887);
+    height: max-content;
+    line-height: 1.5;
+    
+   
+    
+    ul {
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+
+    li{
+        text-align: center;
+        list-style: none;
+    }
+    
+    .projects {
+        padding-top: 1.5rem;   
+        
+        h1 {
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+        
+        img {
+            width: 80%;
+            filter: grayscale(100%);
+            border: solid 1.5px rgb(13, 13, 13);
+            
+            &:hover {
+                filter:grayscale(0%);
+                transform: scale(0.95);
+                transition: all 1.5s ease-in-out;
+                border: solid 4px rgb(232, 125, 125);
+            }
+        }
+
+        .project {
+            padding-bottom: 3rem;
+        }
+    }
+}

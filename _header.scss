@@ -1,0 +1,58 @@
+@import 'variables';
+
+header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+        padding-top: 1.5rem;
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+        font-family: $main-header;
+    }
+
+    ul {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 0.25rem;
+
+        li {
+            padding: 10px;
+        }
+
+        .fa-instagram {
+            color: rgb(138, 6, 138);
+        }
+
+        .fa-facebook {
+            color: rgb(29, 29, 186);
+        }
+
+        .fa-youtube {
+            color: rgb(160, 28, 28);
+        }
+
+        .fa-github {
+            color: rgb(0, 0, 0);
+        }
+
+        .fa-instagram:hover {
+            color: rgb(191, 65, 191);
+        }
+
+        .fa-facebook:hover {
+            color: rgb(122, 122, 236);
+        }
+
+        .fa-youtube:hover {
+            color: rgb(244, 111, 111);
+        }
+
+        .fa-github:hover {
+            color: rgb(92, 88, 88);
+        }
+    }
+}
