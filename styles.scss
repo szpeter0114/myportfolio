@@ -75,5 +75,13 @@ body {
                 }   
             }
         }
+        
+        .continue {
+            p{
+                font-size: 2rem;
+                font-family: $repo;
+                color: brown;
+            }
+        }
     }
 }
