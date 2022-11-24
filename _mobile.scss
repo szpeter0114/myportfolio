@@ -29,10 +29,26 @@
                 width: 8rem;
                 height: 8rem;
             }
+        }
+    }
 
-            h1 {
-                display: none;
+    .structure {
+        div {
+
+            img {
+                width: 3rem;
+                height: 3rem;
             }
         }
     }
+
+    .project {
+        padding-bottom: 3rem;
+
+        .repo {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+    
 }

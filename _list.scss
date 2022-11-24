@@ -3,8 +3,5 @@
     flex-direction: row;
     justify-content: center;
     margin: 0 25px;
-
-    li:nth-child(even) {
-        margin: 10px 20px;
-    }
+    column-gap: 3.5rem;
 }

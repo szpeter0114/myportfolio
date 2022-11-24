@@ -3,6 +3,7 @@
 @import 'variables';
 @import 'stack';
 @import 'mobile';
+@import 'structure';
 
 * {
     padding: 0;
@@ -47,7 +48,7 @@ body {
             font-size: 1rem;
         }
         
-        img {
+        .projectimg{
             width: 80%;
             filter: grayscale(100%);
             border: solid 1.5px rgb(13, 13, 13);
@@ -62,6 +63,17 @@ body {
 
         .project {
             padding-bottom: 3rem;
+
+            .repo {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+
+            a {
+                .repo:hover {
+                   box-shadow: 2px 3px 14px rgb(190, 190, 122);
+                }   
+            }
         }
     }
 }
